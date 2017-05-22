@@ -1,10 +1,10 @@
 # Introduction to Computer Science - Fall 2017
 
-## Lab 10 - It's not the heat, it's the humidit
+## Lab 10 - It's not the heat, it's the humidity
 
 **Functions as abstractions - Creating a Library:** This lab gives you a chance to practice defining and using functions and putting them in a lbrary. In this lab, you will write two functions. One will compute the dew point and another that computes the wind chill factor. In addition, you will create a library to put those functions in. The lab has been started for you and the files are included in this repository.
 
-**Discussion:** A library is just a collection of JavaScript functions that are stored in their own file - a file that is separate from the html file. Rather than an html extension, a JavaScript library has a js extension. For this exercise, you will place your own functions in your copy of _weatherFunctions.js_. Note that for this lab, keep _weather.html_ and _weatherFunction.js_ should be stored in the same directory.
+**Discussion:** A library is just a collection of JavaScript functions that are stored in their own file - a file that is separate from the html file. Rather than an html extension, a JavaScript library has a js extension. For this exercise, you will place your own functions in your copy of _weatherFunctions.js_. Note that for this lab, keep _weather.html_ and _weatherFunctions.js_ should be stored in the same directory.
 
 The first step is for you to indicate in your html file where to find the library. You do this by including a second script element in the head element. Unlike in previous labs, you won't put any JavaScript in the script element. INstead, you just include a source (_src_) attribute that gives the name and the location of the library much like we need the source attribute to describe the name and location of an image file. Look at the [demo page](http://itech190.erickuha.com/) under _Abstraction_.
 
